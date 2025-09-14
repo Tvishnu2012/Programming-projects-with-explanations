@@ -1,0 +1,14 @@
+tensorflow
+tensorflow-hub
+flask
+scikit-learn
+nltk
+spacy
+opencv-python
+librosa
+soundfile
+faiss-cpu
+numpy
+requests
+tqdm
+python-dotenv
