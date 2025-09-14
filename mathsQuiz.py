@@ -1,23 +1,23 @@
-import random
-print("Wilkommen zum Mathe Quiz")
+import random #imports the random module
+print("Welcome to the Maths Quiz") #prints welcome
 
-anzahlFragen = 10
+numberOfQuestions = 10
 
 score = 0
-for _ in range(anzahlFragen):
+for _ in range(numberOfQuestions):
     x = random.randint(1, 1001)
     y = random.randint(1, 1001)
 
     print("What is", x, "+", y )
-    antwort = input("What is your awnser? ")
-    if float(antwort) == x + y :
+    awnser = input("What is your awnser? ")
+    if float(awnser) == x + y :
         print("Richtig!!!")
         score += 1
     else:
-        print("Oops es ist leider falsch:(")
+        print("Oops it was wrong :(")
         print("Die richtige Antwort ist", x + y)
 
 print("Dein Punktzahl ist ", score)
 
-prozent = (score/anzahlFragen) * 100
+prozent = (score/numberOfQuestions) * 100
 print("Du hast ", prozent,"% der Fragen beantwortet") 
