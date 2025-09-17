@@ -5,7 +5,7 @@ scikit-learn
 numpy
 requests
 tqdm
-math
+maths
 random
 torch
 pandas
