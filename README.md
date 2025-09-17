@@ -69,12 +69,6 @@ python --version
 Or install it by going to the root TaVis and by typing 
 
 bash  <br>
-./setup.sh        #or <br>
 bash setup.sh
 
 ----------------------------------------------------------------------------------------------------------------------------------
-
-bash  <br>
-pip install -r requirements.txt
-
-Use this in bash from the root TaVis to install some usefull python modules for AI devolopment  
