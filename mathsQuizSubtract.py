@@ -7,7 +7,7 @@ for _ in range(10):
     y = random.randint(1, 1001)
 
     print("What is", x, "-", y )
-    antwort = input("What is your awnser? ")
+    antwort = input("What is your answer? ")
     if int(antwort) == x - y :
         print("Richtig!!!")
         score += 1

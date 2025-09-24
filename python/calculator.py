@@ -3,7 +3,7 @@ n2 = input("Enter another number: ") #same here but asks for a second number usi
 
 addition = float(n1) + float(n2) # makes a variable called addition that holds the value of the sum of the variables n1 and n2 both in float format.
 print("Sum:", addition) #prints Sum: and then the variable addition
-multiplication = float(n1) * float(n2) #same till the end using other variable names, operators and words when it prints the awnser
+multiplication = float(n1) * float(n2) #same till the end using other variable names, operators and words when it prints the answer
 print("Product:", multiplication)
 subtraction = float(n1) - float(n2)
 print("Difference:", subtraction)

@@ -6,22 +6,22 @@ o = input("Enter an Operator (+, -, /, *, %, //): ") # A variable called o with 
 
 if o == "+": #if function that adds the variable x with the variable y if the operator is +
     result = x + y #makes a variable called result that has the result of the operation.
-    print("The awnser is: ", result) #prints the variable result after printing "The awnser is: " the comma is necessary to make the result appear if not it will show an error and end.
+    print("The answer is: ", result) #prints the variable result after printing "The answer is: " the comma is necessary to make the result appear if not it will show an error and end.
 elif o == "-": # same here other that the fact that it uses elif instead of if because it happens if o is not + 
     result = x - y
-    print("The awnser is: ", result)
+    print("The answer is: ", result)
 elif o == "*": #same here as well
     result = x * y
-    print("The awnser is: ", result)
+    print("The answer is: ", result)
 elif o == "/": #and here
     result = x / y
-    print("The awnser is: ", result)
+    print("The answer is: ", result)
 elif o == "**": #and here
     result = x ** y
-    print("The awnser is: ", result)
+    print("The answer is: ", result)
 elif o == "//": #here as well 
     result = x // y
-    print("The awnser is: ", result)
+    print("The answer is: ", result)
 elif o == "%": #and at last here as well though i think a else inseat of the elif will work as well
     result = x % y
-    print("The awnser is: ", result)
+    print("The answer is: ", result)
