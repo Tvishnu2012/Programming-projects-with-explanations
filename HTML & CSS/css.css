@@ -22,3 +22,33 @@ h6{
 p {
     color:red;
 }
+
+/*
+This is an example:
+
+body {
+    background-color:red; #here it changes the background-color to red.The semicolon is needed if you want to customize 
+                          #the tag more than once
+}
+h1{ #here every h1 tag connents will have the color red and be in teh ariel font and also have the fontsize 50px
+    color:red;
+    font:ariel;
+    font-size:50;
+}
+#for changing the style of a div for example or something that has an id given by you then yo have to use:
+
+.exampleIdObeject{
+    color:red;
+}
+
+which has a . in front of the id.You can give every h1 in a html a different color by giving them a div which is possible using:
+
+<h1 id="exampleIdObject">
+#or
+<div id="exampleIdObject"></div>
+
+#don't use the same id name for two objects other than when they have to look the same but using the same styling for h1 as for a div
+will not work well as you will make the div part red using 'color:red;' which might be a full collum of the webpage while the h1
+will be red.To change the size of a div you have to use 'height:20px;' & 'width:20px' the example with height wand width will make a 
+square.
+*/
